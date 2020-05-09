@@ -7,14 +7,20 @@ title: Hexo
 subtitle: ''
 description: ''
 keywords:
-author: John Doe
+author: yuanyuanmei
 language: en
 timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
-root: /
+url: https://yuanyuanmei.github.io/
+root: /my-blog/
+
+deploy:
+  type: 'git'
+  repo: https://github.com/yuanyuanmei/my-blog.git
+  branch: gh-pages
+  
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -97,5 +103,3 @@ theme: landscape
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
-deploy:
-  type: ''
