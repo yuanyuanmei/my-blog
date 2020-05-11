@@ -18,7 +18,7 @@ root: /my-blog/
 
 deploy:
   type: 'git'
-  repo: https://github.com/yuanyuanmei/my-blog.git
+  #repo: https://github.com/yuanyuanmei/my-blog.git
   branch: gh-pages
   
 permalink: :year/:month/:day/:title/
